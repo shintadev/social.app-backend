@@ -10,4 +10,9 @@ class SocialAppApplicationTests {
 	void contextLoads() {
 	}
 
+	// Test class added ONLY to cover main() invocation not covered by application tests.
+	@Test
+	void applicationContextTest() {
+		SocialAppApplication.main(new String[] {});
+	}
 }
